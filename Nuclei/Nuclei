@@ -1,0 +1,10 @@
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo git clone github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+
+cp /nuclei /home/kali/go/bin/
+
+nuclei -update-templates
+
+nuclei -u http://www.site.com
