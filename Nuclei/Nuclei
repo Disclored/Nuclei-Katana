@@ -1,9 +1,9 @@
 sudo apt-get update
 sudo apt-get upgrade
 
-sudo git clone github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 
-cp /nuclei /home/kali/go/bin/
+sudo cp ~/go/bin/nuclei /bin/
 
 nuclei -update-templates
 
