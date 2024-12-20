@@ -1,0 +1,8 @@
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo go install github.com/projectdiscovery/katana/cmd/katana@latest
+
+sudo cp ~/go/bin/katana /bin/
+
+katana -u https://www.site.com
