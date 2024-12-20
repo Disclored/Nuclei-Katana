@@ -9,4 +9,4 @@ sudo cp ~/go/bin/nuclei /bin/
 
 nuclei -update-templates
 
-nuclei -u http://www.site.com
+nuclei -u https://www.site.com
