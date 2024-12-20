@@ -1,5 +1,7 @@
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get update -y
+sudo apt-get upgrade -y
+
+sudo apt install -y golang
 
 go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 
