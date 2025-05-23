@@ -3,7 +3,7 @@ sudo apt-get upgrade -y
 
 sudo apt install -y golang
 
-sudo go install github.com/projectdiscovery/katana/cmd/katana@latest
+CGO_ENABLED=1 go install github.com/projectdiscovery/katana/cmd/katana@latest
 
 sudo cp ~/go/bin/katana /bin/
 
